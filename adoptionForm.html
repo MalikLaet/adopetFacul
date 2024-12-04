@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adotar um Animal</title>
+  <link rel="stylesheet" href="adoptionForm.css">
+</head>
+<body>
+  <form id="adoptionForm">
+    <div class="formulario">
+      <h2>Formulário de Adoção</h2>
+
+      <div class="inputs">
+        <label>Nome</label>
+        <input id="name" type="text" placeholder="Digite seu nome" required>
+        <p id="nameError" class="error"></p>
+      </div>
+
+      <div class="inputs">
+        <label>Telefone</label>
+        <input id="phone" type="tel" placeholder="Digite seu telefone" required>
+        <p id="phoneError" class="error"></p>
+      </div>
+
+      <div class="inputs">
+        <label>Nome do Animal</label>
+        <input id="animalName" type="text" placeholder="Nome do animal" required>
+        <p id="animalNameError" class="error"></p>
+      </div>
+
+      <div class="inputs">
+        <label>Mensagem</label>
+        <textarea id="message" placeholder="Deixe sua mensagem aqui" required></textarea>
+        <p id="messageError" class="error"></p>
+      </div>
+
+      <button type="submit" class="button">Enviar</button>
+      <a href="./login/login.html" class="button voltar">Voltar</a>
+    </div>
+  </form>
+
+
+  <script src="scripts/adoptionForm.js"></script>
+</body>
+</html>

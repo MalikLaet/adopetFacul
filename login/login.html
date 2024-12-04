@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body class="corpo">
+    <header >
+        <div class="container">
+            <a href="../inicio/index.html">
+                <img class="icone" src="../public/casa.svg" alt="home">
+            </a>
+          <img class="icone" src="../public/mensagens.svg" alt="mensagem">
+        </div>
+      </header>
+      <main class="principal">
+          <img class="imagem-logo" src="../public/logo.png" alt="Logo adopet">
+            <div>
+                <p class="texto-principal">Ainda não tem cadastro? <br>
+                  Então, antes de buscar seu melhor amigo, precisamos de <br> alguns dados:</p>
+              </div>
+          <form id="loginForm">
+              <div class="formulario">
+                  <div class="inputs">
+                      <label class="label-input">Email</label>
+                      <input id="email" type="email" placeholder="Insira seu email" required>
+                      <p id="emailError" class="error"></p>
+                  </div>
+                  <div class="inputs">
+                      <label class="label-input">Senha</label>
+                      <input id="password" type="password" placeholder="Insira sua senha" required>
+                      <p id="passwordError" class="error"></p>
+                  </div>
+                  <button type="button" class="button" id="submitButton">Entrar</button>
+                  <a href="../inicio/index.html" class="button voltar">Voltar</a>
+              </div>
+          </form>
+      </main>
+
+
+    <script src="./login.js"></script>
+</body>
+</html>

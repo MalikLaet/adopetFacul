@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+  
+.corpo{
+    background-color: #3772FF;
+  }
+
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 2em;
+}
+
+.principal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+  color: white;
+
+  padding-top: 120px;
+}
+
+.titulo{
+  text-align: center;
+  padding: 20px 0;
+}
+
+.texto{
+  text-align: center;
+}
+
+.escolha{
+  text-decoration: none;
+  margin: 20px;
+  padding: 8px;
+  background-color: #FC7071;
+  color: white;
+  border: 1px solid #FC7071;
+  border-radius: 10px;
+} 
+
+.escolhas{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.rodape{
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+.texto-rodape{
+  color: white;
+  padding-top: 280px;
+
+}

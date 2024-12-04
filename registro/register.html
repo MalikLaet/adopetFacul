@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="./register.css">
+</head>
+<body class="corpo">
+  <header>
+    <div class="container">
+      <img class="icone" src="../public/casa.svg" alt="home">
+      <img class="icone" src="../public/mensagens.svg" alt="mensagem">
+    </div>
+  </header>
+<main>
+  <img src="../public/logo.png" alt="logo adopet">
+  <p class="texto-principal">Já tem conta? Faça seu login:</p>
+  <form id="registerForm">
+    <div class="formulario">
+      <div class="inputs">
+        <label class="label-input">Email</label>
+        <input id="email" type="email" placeholder="Escolha seu melhor email" required>
+        <p id="emailError" class="error"></p>
+      </div>
+      <div class="inputs">
+        <label class="label-input">Nome</label>
+        <input id="name" type="text" placeholder="Digite seu nome completo" required>
+        <p id="nameError" class="error"></p>
+      </div>
+      <div class="inputs">
+        <label class="label-input">Senha</label>
+        <input id="password" type="password" placeholder="Insira sua senha" required minlength="6">
+        <p id="passwordError" class="error"></p>
+      </div>
+      <div class="inputs">
+        <label class="label-input">Confirme sua senha</label>
+        <input id="passwordConfirmation" type="password" placeholder="Confirme sua senha" required>
+        <p id="passwordConfirmationError" class="error"></p>
+      </div>
+      <button type="submit" class="button">Cadastrar</button>
+      <a href="../inicio/index.html" class="button voltar">Voltar</a>
+    </div>
+  </form>
+</main>
+
+
+  <script src="./register.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.corpo {
+  background-color: #3772ff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+}
+
+.container{
+    display: flex;
+    gap: 40px;
+    padding: 2em ;
+  }
+
+.principal{
+  padding-top: 120px;
+
+}
+
+.imagem-logo{
+  padding-left: 80px;
+}
+
+  .inputs {
+    margin-bottom: 15px;
+  }
+  
+  .inputs label {
+    display: block;
+  }
+  
+  .inputs input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+.texto-principal {
+  color: #3772ff;
+}
+
+.texto-principal {
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.label-input {
+  text-align: center;
+  color: #3f3f46;
+  padding-bottom: 8px;
+}
